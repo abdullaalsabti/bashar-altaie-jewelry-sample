@@ -17,6 +17,8 @@ export default function Atelier() {
             src="/images/necklace-earing-set1.jpg"
             alt="Amethyst and pearl suite on velvet"
             style={{ y }}
+            loading="lazy"
+            decoding="async"
             className="absolute inset-0 h-[116%] w-full object-cover"
           />
         </div>
@@ -24,7 +26,7 @@ export default function Atelier() {
         <div className="flex flex-col justify-center lg:col-span-6 lg:col-start-7">
           <Reveal>
             <div className="flex items-center gap-4">
-              <span className="h-px w-10 bg-champagne" />
+              <span aria-hidden className="h-px w-10 bg-champagne" />
               <Hallmark>{t('atelier.eyebrow')}</Hallmark>
             </div>
           </Reveal>

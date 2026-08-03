@@ -57,7 +57,7 @@ export default function Footer() {
               </li>
             </ul>
             <Hallmark className="mt-6 block text-[10px] text-smoke">{t('footer.follow')}</Hallmark>
-            <ul className="mt-3 flex gap-4">
+            <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-2.5">
               {SOCIAL.map((s) => (
                 <li key={s.label}>
                   <a

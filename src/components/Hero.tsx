@@ -93,6 +93,8 @@ export default function Hero() {
             src="/images/ring-sample1.jpg"
             alt="Nishapur turquoise signet ring in 18K gold"
             style={{ y: imageY }}
+            fetchPriority="high"
+            decoding="async"
             className="drift absolute inset-0 h-full w-full object-cover"
           />
           <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/35 to-transparent" />
@@ -107,7 +109,7 @@ export default function Hero() {
 
       <motion.div
         style={{ opacity: fade }}
-        className="pointer-events-none absolute bottom-6 start-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 lg:flex"
+        className="pointer-events-none absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 lg:flex"
       >
         <span className="hallmark text-[9px] text-smoke">{t('hero.scroll')}</span>
         <motion.span

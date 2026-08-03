@@ -1,0 +1,309 @@
+- generic [ref=f9e2]:
+  - link "Skip to content" [ref=f9e3] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f9e4]:
+    - banner [ref=f9e5]:
+      - generic [ref=f9e6]:
+        - link "Bashar Altaie Jewellery" [ref=f9e7] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=f9e8]:
+            - generic [ref=f9e9]: Bashar Altaie Jewellery
+            - generic [ref=f9e10]: Amman — est. 2006
+        - navigation "Primary" [ref=f9e11]:
+          - link "Collection" [ref=f9e12] [cursor=pointer]:
+            - /url: "#collection"
+          - link "Worn" [ref=f9e13] [cursor=pointer]:
+            - /url: "#worn"
+          - link "Craft" [ref=f9e14] [cursor=pointer]:
+            - /url: "#craft"
+          - link "Stones" [ref=f9e15] [cursor=pointer]:
+            - /url: "#stones"
+          - link "Atelier" [ref=f9e16] [cursor=pointer]:
+            - /url: "#atelier"
+        - generic [ref=f9e17]:
+          - button "Switch to Arabic" [ref=f9e18]:
+            - generic [ref=f9e19]: EN
+            - generic [ref=f9e21]: ع
+          - link "Book a fitting" [ref=f9e22] [cursor=pointer]:
+            - /url: "#visit"
+    - main [ref=f9e23]:
+      - generic [ref=f9e24]:
+        - generic [ref=f9e25]:
+          - generic [ref=f9e26]:
+            - generic [ref=f9e27]: Hand-set in 18K gold
+            - heading "Every stone is set once, by one hand." [level=1] [ref=f9e30]:
+              - generic [ref=f9e31]: Every stone
+              - generic [ref=f9e33]: is set once,
+              - generic [ref=f9e35]: by one hand.
+            - paragraph [ref=f9e37]: Two decades at one bench in Sweifieh. No moulds, no repeats — each setting is cut to the stone it will hold.
+            - generic [ref=f9e38]:
+              - link "See the collection" [ref=f9e39] [cursor=pointer]:
+                - /url: "#collection"
+              - link "Book a fitting" [ref=f9e41] [cursor=pointer]:
+                - /url: "#visit"
+            - generic [ref=f9e42]:
+              - generic [ref=f9e43]:
+                - term [ref=f9e44]: "20"
+                - definition [ref=f9e45]: Years at the bench
+              - generic [ref=f9e46]:
+                - term [ref=f9e47]: 1 of 1
+                - definition [ref=f9e48]: Pieces per design
+              - generic [ref=f9e49]:
+                - term [ref=f9e50]: 18K
+                - definition [ref=f9e51]: Gold, never plated
+          - generic [ref=f9e52]:
+            - img "Nishapur turquoise signet ring in 18K gold" [ref=f9e53]
+            - generic [ref=f9e55]: 18K · TURQUOISE · 9.2G
+        - generic: Scroll
+      - generic [ref=f9e59]:
+        - generic [ref=f9e60]: Turquoise · Carnelian · Amethyst · River pearl · 18K gold · Hand-engraved · Amman ·
+        - generic [ref=f9e61]: Turquoise · Carnelian · Amethyst · River pearl · 18K gold · Hand-engraved · Amman ·
+        - generic [ref=f9e62]: Turquoise · Carnelian · Amethyst · River pearl · 18K gold · Hand-engraved · Amman ·
+        - generic [ref=f9e63]: Turquoise · Carnelian · Amethyst · River pearl · 18K gold · Hand-engraved · Amman ·
+      - generic [ref=f9e65]:
+        - generic [ref=f9e66]:
+          - generic [ref=f9e67]:
+            - generic [ref=f9e68]: The collection
+            - heading "Three pieces, none repeated" [level=2] [ref=f9e72]:
+              - generic [ref=f9e73]: Three pieces,
+              - generic [ref=f9e75]: none repeated
+          - paragraph [ref=f9e79]: What is on the bench this season. When a piece leaves the workshop, its design leaves with it.
+        - generic [ref=f9e80]:
+          - generic [ref=f9e81]:
+            - button [ref=f9e82]:
+              - generic [ref=f9e84]:
+                - generic [ref=f9e85]: View piece
+                - generic [ref=f9e86]: →
+            - generic [ref=f9e88]:
+              - text: Ring
+              - heading "Nishapur Signet" [level=3] [ref=f9e89]
+              - paragraph [ref=f9e90]: A rectangular Nishapur cabochon held in twisted gold rope, with two Yemeni carnelians set into the shoulders.
+              - generic [ref=f9e91]:
+                - generic [ref=f9e92]:
+                  - term [ref=f9e93]: What we set
+                  - definition [ref=f9e94]: Nishapur turquoise
+                - generic [ref=f9e95]:
+                  - term [ref=f9e96]: Hallmark
+                  - definition [ref=f9e97]: 18K · TURQUOISE · 9.2G
+              - button "View piece — Nishapur Signet →" [ref=f9e98]:
+                - text: View piece
+                - generic [ref=f9e99]: — Nishapur Signet
+                - generic [ref=f9e100]: →
+          - generic [ref=f9e101]:
+            - button [ref=f9e102]:
+              - generic [ref=f9e104]:
+                - generic [ref=f9e105]: View piece
+                - generic [ref=f9e106]: →
+            - generic [ref=f9e108]:
+              - text: Pendant
+              - heading "Carnelian Roundel" [level=3] [ref=f9e109]
+              - paragraph [ref=f9e110]: A deep carnelian disc with a hand-engraved gold rosette at its centre, hung from a turquoise-capped bail.
+              - generic [ref=f9e111]:
+                - generic [ref=f9e112]:
+                  - term [ref=f9e113]: What we set
+                  - definition [ref=f9e114]: Yemeni carnelian
+                - generic [ref=f9e115]:
+                  - term [ref=f9e116]: Hallmark
+                  - definition [ref=f9e117]: 18K · CARNELIAN · 11.6G
+              - button "View piece — Carnelian Roundel →" [ref=f9e118]:
+                - text: View piece
+                - generic [ref=f9e119]: — Carnelian Roundel
+                - generic [ref=f9e120]: →
+          - generic [ref=f9e121]:
+            - button [ref=f9e122]:
+              - generic [ref=f9e124]:
+                - generic [ref=f9e125]: View piece
+                - generic [ref=f9e126]: →
+            - generic [ref=f9e128]:
+              - text: Necklace & earrings
+              - heading "Amethyst & Pearl Suite" [level=3] [ref=f9e129]
+              - paragraph [ref=f9e130]: Paired cabochons — one pearl, one amethyst — in pierced gold crowns, on a box chain drawn in the workshop.
+              - generic [ref=f9e131]:
+                - generic [ref=f9e132]:
+                  - term [ref=f9e133]: What we set
+                  - definition [ref=f9e134]: Amethyst, river pearl
+                - generic [ref=f9e135]:
+                  - term [ref=f9e136]: Hallmark
+                  - definition [ref=f9e137]: 18K · AMETHYST · PEARL
+              - button "View piece — Amethyst & Pearl Suite →" [ref=f9e138]:
+                - text: View piece
+                - generic [ref=f9e139]: — Amethyst & Pearl Suite
+                - generic [ref=f9e140]: →
+      - generic [ref=f9e142]:
+        - generic [ref=f9e143]:
+          - generic [ref=f9e144]:
+            - generic [ref=f9e145]: On the neck
+            - heading "Scale is the thing photographs get wrong" [level=2] [ref=f9e149]:
+              - generic [ref=f9e150]: Scale is the
+              - generic [ref=f9e152]: thing photographs
+              - generic [ref=f9e154]: get wrong
+          - paragraph [ref=f9e158]: A pendant reads differently against a collarbone than it does on a bench. These are pieces from the last few seasons, worn.
+        - generic [ref=f9e159]:
+          - figure "Turquoise drop, with earrings 18K · Turquoise · Ruby" [ref=f9e160]:
+            - img "Gold pendant with a garnet cabochon above a large turquoise drop, worn with matching earrings" [ref=f9e162]
+            - generic [ref=f9e163]:
+              - generic [ref=f9e164]: Turquoise drop, with earrings
+              - generic [ref=f9e165]: 18K · Turquoise · Ruby
+          - figure "Tughra roundel 18K · Coin · Agate" [ref=f9e166]:
+            - img "Tiered gold pendant of garnet and honey agate above an Ottoman tughra coin in a diamond halo" [ref=f9e168]
+            - generic [ref=f9e169]:
+              - generic [ref=f9e170]: Tughra roundel
+              - generic [ref=f9e171]: 18K · Coin · Agate
+          - figure "Rashadi coin, opal bail 18K · Coin · Opal" [ref=f9e172]:
+            - img "Hammered gold roundel set with a coin, hung from an opal cabochon bail" [ref=f9e174]
+            - generic [ref=f9e175]:
+              - generic [ref=f9e176]: Rashadi coin, opal bail
+              - generic [ref=f9e177]: 18K · Coin · Opal
+          - figure "Marquise suite Necklace · Earrings · Ring · Bracelet" [ref=f9e178]:
+            - img "Marquise-cut white stone floral suite worn as necklace, earrings, ring and bracelet" [ref=f9e180]
+            - generic [ref=f9e181]:
+              - generic [ref=f9e182]: Marquise suite
+              - generic [ref=f9e183]: Necklace · Earrings · Ring · Bracelet
+          - figure "Line necklace Graduated · Claw-set" [ref=f9e184]:
+            - img "Graduated line necklace of claw-set white stones worn at the collarbone" [ref=f9e186]
+            - generic [ref=f9e187]:
+              - generic [ref=f9e188]: Line necklace
+              - generic [ref=f9e189]: Graduated · Claw-set
+      - generic [ref=f9e192]:
+        - generic [ref=f9e193]:
+          - generic [ref=f9e194]: At the bench
+          - heading "Four hours of filing for one surface" [level=2] [ref=f9e198]:
+            - generic [ref=f9e199]: Four hours
+            - generic [ref=f9e201]: of filing for
+            - generic [ref=f9e203]: one surface
+          - paragraph [ref=f9e206]: Nothing here is finished by machine. The sequence below is the same one Bashar was taught at fourteen, and it has not been shortened since.
+        - generic [ref=f9e207]:
+          - generic [ref=f9e209]:
+            - heading "The stone comes first" [level=3] [ref=f9e210]
+            - paragraph [ref=f9e211]: A piece begins when a stone is worth building around. Nothing is designed and then filled.
+          - generic [ref=f9e212]:
+            - heading "Wire drawn by hand" [level=3] [ref=f9e213]
+            - paragraph [ref=f9e214]: Gold is drawn down through the plate to the gauge the setting needs — never bought pre-formed.
+          - generic [ref=f9e215]:
+            - heading "Set cold, closed once" [level=3] [ref=f9e216]
+            - paragraph [ref=f9e217]: The bezel is burnished over the stone without heat. There is one attempt; a second would mark the gold.
+          - generic [ref=f9e218]:
+            - heading "Signed underneath" [level=3] [ref=f9e219]
+            - paragraph [ref=f9e220]: The workshop mark and karat are stamped where only the wearer will find them.
+      - generic [ref=f9e223]:
+        - generic [ref=f9e224]:
+          - generic [ref=f9e225]: What we set
+          - heading "The coloured stones we come back to" [level=2] [ref=f9e229]:
+            - generic [ref=f9e230]: The coloured stones
+            - generic [ref=f9e232]: we come back to
+        - list [ref=f9e234]:
+          - listitem [ref=f9e236]:
+            - generic [ref=f9e238]:
+              - generic [ref=f9e239]:
+                - heading "Turquoise" [level=3] [ref=f9e240]
+                - generic [ref=f9e241]: Nishapur, Iran
+              - paragraph [ref=f9e242]: Sky-blue with a fine brown matrix. Left unbacked and unstabilised.
+          - listitem [ref=f9e244]:
+            - generic [ref=f9e246]:
+              - generic [ref=f9e247]:
+                - heading "Carnelian" [level=3] [ref=f9e248]
+                - generic [ref=f9e249]: Yemen
+              - paragraph [ref=f9e250]: Cut from the darker seam, where the red holds without turning orange.
+          - listitem [ref=f9e252]:
+            - generic [ref=f9e254]:
+              - generic [ref=f9e255]:
+                - heading "Amethyst" [level=3] [ref=f9e256]
+                - generic [ref=f9e257]: Zambia
+              - paragraph [ref=f9e258]: Cabochon, never faceted — the depth of colour does the work.
+          - listitem [ref=f9e260]:
+            - generic [ref=f9e262]:
+              - generic [ref=f9e263]:
+                - heading "River pearl" [level=3] [ref=f9e264]
+                - generic [ref=f9e265]: Freshwater
+              - paragraph [ref=f9e266]: Matched by overtone before size. A matched pair can take months.
+      - generic [ref=f9e268]:
+        - img "Amethyst and pearl suite on velvet" [ref=f9e270]
+        - generic [ref=f9e271]:
+          - generic [ref=f9e272]: The atelier
+          - generic [ref=f9e276]:
+            - blockquote [ref=f9e277]: “Copies can look alike. What they cannot carry is the story of the original, its craft, or its authenticity.”
+            - paragraph [ref=f9e278]: — Bashar Altaie, goldsmith
+          - generic [ref=f9e280]:
+            - paragraph [ref=f9e281]: The workshop has been in Sweifieh for close to twenty years, on Subhi Al-Omari Street. Two benches, four hands, and a drawer of gravers older than anyone using them. In that time our designs have been copied often enough that we take it as the measure.
+            - paragraph [ref=f9e282]: We do not hold stock. A piece is made when someone asks for it, and the stone is chosen with them — in the room, under daylight, before a single line is drawn.
+      - generic [ref=f9e284]:
+        - generic [ref=f9e285]:
+          - generic [ref=f9e286]: Visit
+          - heading "Come and hold it first" [level=2] [ref=f9e290]:
+            - generic [ref=f9e291]: Come and
+            - generic [ref=f9e293]: hold it first
+          - generic [ref=f9e295]:
+            - paragraph [ref=f9e296]: Fittings are by appointment so the bench can be cleared and the stones laid out for you. Tell us roughly what you have in mind — we will bring options.
+            - generic [ref=f9e297]:
+              - generic [ref=f9e298]:
+                - term [ref=f9e299]: Workshop
+                - definition [ref=f9e300]:
+                  - link "Subhi Al-Omari St., Sweifieh, Amman" [ref=f9e301] [cursor=pointer]:
+                    - /url: https://maps.google.com/?q=Bash+Jewelers+Subhi+Al-Omari+Street+Sweifieh+Amman
+              - generic [ref=f9e302]:
+                - term [ref=f9e303]: Open
+                - definition [ref=f9e304]: Saturday to Thursday, 10:00 — 19:00
+              - generic [ref=f9e305]:
+                - term [ref=f9e306]: Call
+                - definition [ref=f9e307]:
+                  - link "+962 79 555 7086" [ref=f9e308] [cursor=pointer]:
+                    - /url: tel:+962795557086
+        - generic [ref=f9e310]:
+          - generic [ref=f9e311]:
+            - generic [ref=f9e312]:
+              - text: Your name
+              - textbox "Your name" [ref=f9e313]
+            - generic [ref=f9e314]:
+              - text: Email
+              - textbox "Email" [ref=f9e315]
+          - generic [ref=f9e316]:
+            - text: What are you looking for?
+            - textbox "What are you looking for?" [ref=f9e317]:
+              - /placeholder: A ring for my mother, turquoise if possible…
+          - generic [ref=f9e318]:
+            - button "Request an appointment" [ref=f9e319]
+            - status
+    - contentinfo [ref=f9e320]:
+      - generic [ref=f9e321]:
+        - generic [ref=f9e322]:
+          - generic [ref=f9e323]:
+            - img "Bashar Altaie" [ref=f9e324]
+            - paragraph [ref=f9e325]: Hand-set gold, one piece at a time.
+          - navigation [ref=f9e326]:
+            - text: Explore
+            - list [ref=f9e327]:
+              - listitem [ref=f9e328]:
+                - link "Collection" [ref=f9e329] [cursor=pointer]:
+                  - /url: "#collection"
+              - listitem [ref=f9e330]:
+                - link "Craft" [ref=f9e331] [cursor=pointer]:
+                  - /url: "#craft"
+              - listitem [ref=f9e332]:
+                - link "Stones" [ref=f9e333] [cursor=pointer]:
+                  - /url: "#stones"
+              - listitem [ref=f9e334]:
+                - link "Atelier" [ref=f9e335] [cursor=pointer]:
+                  - /url: "#atelier"
+          - generic [ref=f9e336]:
+            - text: Contact
+            - list [ref=f9e337]:
+              - listitem [ref=f9e338]:
+                - link "Subhi Al-Omari St., Sweifieh, Amman" [ref=f9e339] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Bash+Jewelers+Subhi+Al-Omari+Street+Sweifieh+Amman
+              - listitem [ref=f9e340]:
+                - link "+962 79 555 7086" [ref=f9e341] [cursor=pointer]:
+                  - /url: tel:+962795557086
+            - generic [ref=f9e342]: Follow
+            - list [ref=f9e343]:
+              - listitem [ref=f9e344]:
+                - link "Instagram" [ref=f9e345] [cursor=pointer]:
+                  - /url: https://www.instagram.com/bashjewelers
+              - listitem [ref=f9e346]:
+                - link "WhatsApp" [ref=f9e347] [cursor=pointer]:
+                  - /url: https://wa.me/962795557086
+              - listitem [ref=f9e348]:
+                - link "bashjewelers.com" [ref=f9e349] [cursor=pointer]:
+                  - /url: https://www.bashjewelers.com
+        - generic [ref=f9e350]:
+          - paragraph [ref=f9e351]: © 2026 Bashar Altaie Jewellery. All rights reserved.
+          - paragraph [ref=f9e352]: Demonstration site — not a live storefront.

@@ -8,7 +8,8 @@ export default function Marquee() {
   const rtl = i18n.language === 'ar'
 
   return (
-    <div className="relative overflow-hidden border-y border-hairline bg-bone py-5">
+    // Decorative repetition — a screen reader would otherwise read it four times.
+    <div aria-hidden className="relative overflow-hidden border-y border-hairline bg-bone py-5">
       <motion.div
         className="flex w-max gap-10 whitespace-nowrap"
         animate={still ? undefined : { x: rtl ? ['-50%', '0%'] : ['0%', '-50%'] }}

@@ -6,12 +6,16 @@
   },
   "nav": {
     "collection": "Collection",
+    "worn": "Worn",
     "craft": "Craft",
     "stones": "Stones",
     "atelier": "Atelier",
     "visit": "Book a fitting",
     "menu": "Menu",
     "close": "Close",
+    "primary": "Primary",
+    "here": "You are here",
+    "skip": "Skip to content",
     "langLabel": "Switch to Arabic"
   },
   "hero": {
@@ -66,6 +70,38 @@
       }
     }
   },
+  "worn": {
+    "eyebrow": "On the neck",
+    "title": "Scale is the\nthing photographs\nget wrong",
+    "body": "A pendant reads differently against a collarbone than it does on a bench. These are pieces from the last few seasons, worn.",
+    "shots": {
+      "turquoiseDrop": {
+        "name": "Turquoise drop, with earrings",
+        "spec": "18K · Turquoise · Ruby",
+        "alt": "Gold pendant with a garnet cabochon above a large turquoise drop, worn with matching earrings"
+      },
+      "tughra": {
+        "name": "Tughra roundel",
+        "spec": "18K · Coin · Agate",
+        "alt": "Tiered gold pendant of garnet and honey agate above an Ottoman tughra coin in a diamond halo"
+      },
+      "rashadi": {
+        "name": "Rashadi coin, opal bail",
+        "spec": "18K · Coin · Opal",
+        "alt": "Hammered gold roundel set with a coin, hung from an opal cabochon bail"
+      },
+      "marquise": {
+        "name": "Marquise suite",
+        "spec": "Necklace · Earrings · Ring · Bracelet",
+        "alt": "Marquise-cut white stone floral suite worn as necklace, earrings, ring and bracelet"
+      },
+      "line": {
+        "name": "Line necklace",
+        "spec": "Graduated · Claw-set",
+        "alt": "Graduated line necklace of claw-set white stones worn at the collarbone"
+      }
+    }
+  },
   "craft": {
     "eyebrow": "At the bench",
     "title": "Four hours\nof filing for\none surface",
@@ -91,7 +127,7 @@
   },
   "stones": {
     "eyebrow": "What we set",
-    "title": "Four stones,\nsourced the same way\nfor fifty years",
+    "title": "The coloured stones\nwe come back to",
     "items": {
       "turquoise": {
         "name": "Turquoise",
@@ -127,7 +163,7 @@
     "title": "Come and\nhold it first",
     "body": "Fittings are by appointment so the bench can be cleared and the stones laid out for you. Tell us roughly what you have in mind — we will bring options.",
     "name": "Your name",
-    "contact": "Email or phone",
+    "contact": "Email",
     "message": "What are you looking for?",
     "messagePlaceholder": "A ring for my mother, turquoise if possible…",
     "submit": "Request an appointment",

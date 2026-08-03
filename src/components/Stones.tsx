@@ -22,7 +22,7 @@ export default function Stones() {
           <div className="lg:col-span-5">
             <Reveal>
               <div className="flex items-center gap-4">
-                <span className="h-px w-10 bg-champagne" />
+                <span aria-hidden className="h-px w-10 bg-champagne" />
                 <Hallmark>{t('stones.eyebrow')}</Hallmark>
               </div>
             </Reveal>

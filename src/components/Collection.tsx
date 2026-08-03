@@ -33,13 +33,14 @@ function ProductRow({
   return (
     <div
       ref={ref}
-      className={`grid grid-cols-1 items-center gap-8 border-t border-hairline py-14 md:gap-14 md:py-20 lg:grid-cols-12 ${
-        flip ? '' : ''
-      }`}
+      className="grid grid-cols-1 items-center gap-8 border-t border-hairline py-14 md:gap-14 md:py-20 lg:grid-cols-12"
     >
+      {/* Big click target for pointers. The labelled button below is the one
+          keyboard and screen-reader users get, so the action isn't announced twice. */}
       <motion.button
         onClick={onOpen}
-        aria-label={t(`${base}.name`)}
+        tabIndex={-1}
+        aria-hidden
         initial={{ clipPath: 'inset(0 0 100% 0)' }}
         whileInView={{ clipPath: 'inset(0 0 0% 0)' }}
         viewport={{ once: true, margin: '-10% 0px' }}
@@ -52,6 +53,8 @@ function ProductRow({
           src={image}
           alt={t(`${base}.name`)}
           style={{ y }}
+          loading={index === 0 ? undefined : 'lazy'}
+          decoding="async"
           className="absolute inset-0 h-[114%] w-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.045]"
         />
         {/* Sheen sweeps once on hover — the way light moves across polished gold. */}
@@ -86,6 +89,7 @@ function ProductRow({
             className="hallmark group mt-7 flex items-center gap-3 border-b border-ink pb-1.5 transition-colors hover:border-champagne hover:text-champagne-deep"
           >
             {t('collection.view')}
+            <span className="sr-only"> — {t(`${base}.name`)}</span>
             <span className="transition-transform duration-500 group-hover:translate-x-1.5 rtl:group-hover:-translate-x-1.5">
               →
             </span>
@@ -107,7 +111,7 @@ export default function Collection() {
           <div className="lg:col-span-6">
             <Reveal>
               <div className="flex items-center gap-4">
-                <span className="h-px w-10 bg-champagne" />
+                <span aria-hidden className="h-px w-10 bg-champagne" />
                 <Hallmark>{t('collection.eyebrow')}</Hallmark>
               </div>
             </Reveal>

@@ -18,7 +18,7 @@ export default function Craft() {
           <div className="lg:col-span-5">
             <Reveal>
               <div className="flex items-center gap-4">
-                <span className="h-px w-10 bg-champagne" />
+                <span aria-hidden className="h-px w-10 bg-champagne" />
                 <Hallmark className="text-champagne">{t('craft.eyebrow')}</Hallmark>
               </div>
             </Reveal>

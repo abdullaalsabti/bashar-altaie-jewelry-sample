@@ -6,7 +6,9 @@
   --color-paper: #ffffff;
   --color-bone: #f5f2ec;
   --color-champagne: #c2a87c;
-  --color-champagne-deep: #9c8253;
+  /* Darkened from the display champagne so 11px accent text clears 4.5:1 on
+     both paper and bone, and paper-on-accent clears it for filled buttons. */
+  --color-champagne-deep: #7d6033;
   --color-hairline: #e4dfd6;
   --color-smoke: #6f6a63;
 
@@ -35,8 +37,15 @@
   }
 
   html {
-    scroll-behavior: smooth;
+    /* No `scroll-behavior: smooth` — it cancels fragment navigation outright
+       in Chromium here. useAnchorScroll animates in-page links instead. */
     -webkit-font-smoothing: antialiased;
+  }
+
+  /* The header is fixed; without this every in-page link lands underneath it. */
+  section[id],
+  main[id] {
+    scroll-margin-top: 5.5rem;
   }
 
   body {
@@ -44,7 +53,9 @@
     color: var(--color-ink);
     font-family: var(--font-body);
     font-weight: 300;
-    overflow-x: hidden;
+    /* `clip`, not `hidden`: hidden turns body into a scroll container and
+       silently breaks fragment navigation (#collection, #visit, …). */
+    overflow-x: clip;
   }
 
   ::selection {
@@ -144,8 +155,5 @@
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
-  }
-  html {
-    scroll-behavior: auto;
   }
 }
