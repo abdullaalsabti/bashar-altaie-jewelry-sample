@@ -1,0 +1,151 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #0b0b0b;
+  --color-ink-soft: #2a2724;
+  --color-paper: #ffffff;
+  --color-bone: #f5f2ec;
+  --color-champagne: #c2a87c;
+  --color-champagne-deep: #9c8253;
+  --color-hairline: #e4dfd6;
+  --color-smoke: #6f6a63;
+
+  --font-display: 'Marcellus', 'Amiri', serif;
+  --font-body: 'Jost', 'IBM Plex Sans Arabic', sans-serif;
+  --font-mark: 'IBM Plex Mono', 'IBM Plex Sans Arabic', monospace;
+
+  --ease-silk: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  --rule-origin: left;
+}
+
+/* Arabic swaps the type system wholesale, not just the direction. */
+:root[dir='rtl'] {
+  --rule-origin: right;
+  --font-display: 'Amiri', serif;
+  --font-body: 'IBM Plex Sans Arabic', sans-serif;
+  --font-mark: 'IBM Plex Sans Arabic', monospace;
+}
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 300;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: var(--color-ink);
+    color: var(--color-champagne);
+  }
+
+  :focus-visible {
+    outline: 1.5px solid var(--color-champagne-deep);
+    outline-offset: 3px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 9px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-bone);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-champagne);
+  }
+}
+
+@utility display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.015em;
+}
+
+/* Hallmark: the stamped spec label used on metal. Small, tracked, uppercase. */
+@utility hallmark {
+  font-family: var(--font-mark);
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+/* Amiri carries tall ascenders and diacritics; the Latin leading clips them. */
+:root[dir='rtl'] .display {
+  line-height: 1.42;
+  letter-spacing: 0;
+}
+
+:root[dir='rtl'] .hallmark,
+:root[dir='rtl'] [class*='hallmark'] {
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 0.75rem;
+}
+
+/* The logo ships as black-on-white JPEG; blend it onto light and invert on dark. */
+.logo-light {
+  mix-blend-mode: multiply;
+}
+.logo-dark {
+  filter: invert(1);
+  mix-blend-mode: screen;
+}
+
+.grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1.06);
+  }
+  50% {
+    transform: translate3d(-1.5%, -1.5%, 0) scale(1.12);
+  }
+}
+.drift {
+  animation: drift 22s var(--ease-silk) infinite;
+}
+
+@keyframes sheen {
+  0% {
+    transform: translateX(-120%) skewX(-18deg);
+  }
+  100% {
+    transform: translateX(320%) skewX(-18deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

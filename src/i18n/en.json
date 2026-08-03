@@ -1,0 +1,148 @@
+{
+  "brand": {
+    "name": "Bashar Altaie",
+    "suffix": "Jewellery",
+    "since": "Amman — est. 2006"
+  },
+  "nav": {
+    "collection": "Collection",
+    "craft": "Craft",
+    "stones": "Stones",
+    "atelier": "Atelier",
+    "visit": "Book a fitting",
+    "menu": "Menu",
+    "close": "Close",
+    "langLabel": "Switch to Arabic"
+  },
+  "hero": {
+    "eyebrow": "Hand-set in 18K gold",
+    "line1": "Every stone",
+    "line2": "is set once,",
+    "line3": "by one hand.",
+    "body": "Two decades at one bench in Sweifieh. No moulds, no repeats — each setting is cut to the stone it will hold.",
+    "cta": "See the collection",
+    "scroll": "Scroll",
+    "stat1": { "value": "20", "label": "Years at the bench" },
+    "stat2": { "value": "1 of 1", "label": "Pieces per design" },
+    "stat3": { "value": "18K", "label": "Gold, never plated" }
+  },
+  "marquee": "Turquoise · Carnelian · Amethyst · River pearl · 18K gold · Hand-engraved · Amman ·",
+  "collection": {
+    "eyebrow": "The collection",
+    "title": "Three pieces,\nnone repeated",
+    "body": "What is on the bench this season. When a piece leaves the workshop, its design leaves with it.",
+    "view": "View piece",
+    "enquire": "Enquire",
+    "specs": "Hallmark",
+    "priceLabel": "Price",
+    "close": "Close",
+    "items": {
+      "ring": {
+        "name": "Nishapur Signet",
+        "type": "Ring",
+        "stone": "Nishapur turquoise",
+        "price": "On request",
+        "blurb": "A rectangular Nishapur cabochon held in twisted gold rope, with two Yemeni carnelians set into the shoulders.",
+        "detail": "The turquoise was cut in Mashhad and left unbacked, so the matrix reads as it did in the vein. The rope bezel is drawn by hand from a single wire, then closed at the base where the join will never be seen. Shoulders are hammered, not cast — the texture holds light at the edges instead of flattening it.",
+        "hallmark": "18K · TURQUOISE · 9.2G"
+      },
+      "necklace": {
+        "name": "Carnelian Roundel",
+        "type": "Pendant",
+        "stone": "Yemeni carnelian",
+        "price": "On request",
+        "blurb": "A deep carnelian disc with a hand-engraved gold rosette at its centre, hung from a turquoise-capped bail.",
+        "detail": "The rosette is chased directly into the gold with a set of gravers ground for this workshop. The carnelian is Yemeni, chosen for the darker end of the range where the red carries almost no orange. The toggle bar is functional — it locks, it does not decorate.",
+        "hallmark": "18K · CARNELIAN · 11.6G"
+      },
+      "set": {
+        "name": "Amethyst & Pearl Suite",
+        "type": "Necklace & earrings",
+        "stone": "Amethyst, river pearl",
+        "price": "On request",
+        "blurb": "Paired cabochons — one pearl, one amethyst — in pierced gold crowns, on a box chain drawn in the workshop.",
+        "detail": "Each crown is pierced by hand so light passes behind the stone rather than stopping at the metal. The pearls are matched for overtone, not only for size, which is why a suite can take a season to complete. The box chain is drawn and soldered link by link.",
+        "hallmark": "18K · AMETHYST · PEARL"
+      }
+    }
+  },
+  "craft": {
+    "eyebrow": "At the bench",
+    "title": "Four hours\nof filing for\none surface",
+    "body": "Nothing here is finished by machine. The sequence below is the same one Bashar was taught at fourteen, and it has not been shortened since.",
+    "steps": {
+      "one": {
+        "title": "The stone comes first",
+        "body": "A piece begins when a stone is worth building around. Nothing is designed and then filled."
+      },
+      "two": {
+        "title": "Wire drawn by hand",
+        "body": "Gold is drawn down through the plate to the gauge the setting needs — never bought pre-formed."
+      },
+      "three": {
+        "title": "Set cold, closed once",
+        "body": "The bezel is burnished over the stone without heat. There is one attempt; a second would mark the gold."
+      },
+      "four": {
+        "title": "Signed underneath",
+        "body": "The workshop mark and karat are stamped where only the wearer will find them."
+      }
+    }
+  },
+  "stones": {
+    "eyebrow": "What we set",
+    "title": "Four stones,\nsourced the same way\nfor fifty years",
+    "items": {
+      "turquoise": {
+        "name": "Turquoise",
+        "origin": "Nishapur, Iran",
+        "note": "Sky-blue with a fine brown matrix. Left unbacked and unstabilised."
+      },
+      "carnelian": {
+        "name": "Carnelian",
+        "origin": "Yemen",
+        "note": "Cut from the darker seam, where the red holds without turning orange."
+      },
+      "amethyst": {
+        "name": "Amethyst",
+        "origin": "Zambia",
+        "note": "Cabochon, never faceted — the depth of colour does the work."
+      },
+      "pearl": {
+        "name": "River pearl",
+        "origin": "Freshwater",
+        "note": "Matched by overtone before size. A matched pair can take months."
+      }
+    }
+  },
+  "atelier": {
+    "eyebrow": "The atelier",
+    "quote": "Copies can look alike. What they cannot carry is the story of the original, its craft, or its authenticity.",
+    "attribution": "Bashar Altaie, goldsmith",
+    "body1": "The workshop has been in Sweifieh for close to twenty years, on Subhi Al-Omari Street. Two benches, four hands, and a drawer of gravers older than anyone using them. In that time our designs have been copied often enough that we take it as the measure.",
+    "body2": "We do not hold stock. A piece is made when someone asks for it, and the stone is chosen with them — in the room, under daylight, before a single line is drawn."
+  },
+  "visit": {
+    "eyebrow": "Visit",
+    "title": "Come and\nhold it first",
+    "body": "Fittings are by appointment so the bench can be cleared and the stones laid out for you. Tell us roughly what you have in mind — we will bring options.",
+    "name": "Your name",
+    "contact": "Email or phone",
+    "message": "What are you looking for?",
+    "messagePlaceholder": "A ring for my mother, turquoise if possible…",
+    "submit": "Request an appointment",
+    "sent": "Sent — we reply within two days",
+    "labels": { "address": "Workshop", "hours": "Open", "phone": "Call" },
+    "hours": "Saturday to Thursday, 10:00 — 19:00",
+    "address": "Subhi Al-Omari St., Sweifieh, Amman",
+    "phone": "+962 79 555 7086"
+  },
+  "footer": {
+    "tagline": "Hand-set gold, one piece at a time.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "follow": "Follow",
+    "rights": "All rights reserved.",
+    "sample": "Demonstration site — not a live storefront."
+  }
+}
