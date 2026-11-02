@@ -4,3 +4,21 @@ dist
 *.local
 .vercel
 .playwright-mcp
+
+# Build / tooling artifacts
+*.tsbuildinfo
+.playwright-mcp
+.claude
+coverage
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & editors
+*.log
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+.idea
