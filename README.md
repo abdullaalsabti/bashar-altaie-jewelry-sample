@@ -54,10 +54,11 @@ public/         Static assets (images, favicons, manifest)
 
 ## Screenshots
 
-| | |
-| --- | --- |
-| ![Necklace](public/images/necklace-sample1.jpg) | ![Ring](public/images/ring-sample1.jpg) |
-| ![Set](public/images/necklace-earing-set1.jpg) | ![Worn](public/images/worn-rashadi-opal.jpg) |
+![Desktop home page](docs/screenshots/home-en-desktop.png)
+
+<img src="docs/screenshots/home-en-mobile.png" alt="Mobile home page" width="260">
+
+Lighthouse results and known findings: [docs/LIGHTHOUSE.md](docs/LIGHTHOUSE.md). To adapt the template, see [CUSTOMIZING.md](CUSTOMIZING.md).
 
 ## Accessibility and responsive design
 

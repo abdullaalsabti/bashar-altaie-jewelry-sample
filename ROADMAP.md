@@ -14,3 +14,6 @@ Plans, not promises. Contributions are welcome via [issues](https://github.com/a
 - Provide configuration examples for adapting the template
 - Add additional localization examples
 - Improve performance and accessibility audits
+
+## Known audit findings
+See [docs/LIGHTHOUSE.md](docs/LIGHTHOUSE.md): colour contrast, list semantics, LCP image size, `robots.txt`.
